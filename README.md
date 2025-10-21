@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>9F'J) 'D7AD</title>
+  <title>عناية الطفل</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { font-family: 'Cairo', Arial, sans-serif; background: #fafcff; margin: 0; padding: 0; }
@@ -57,32 +57,32 @@
   <header>
     <div class="header-icons">
       <!-- Instagram Icon -->
-      <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank" title="'F3*:1'E">
+      <a href="https://instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank" title="انستغرام">
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram" style="background:#fff;border-radius:50%;padding:4px;">
       </a>
       <!-- WhatsApp Icon -->
-      <a href="https://wa.me/9647700000000" target="_blank" title="H'*3'(">
+      <a href="https://wa.me/9647700000000" target="_blank" title="واتساب">
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/whatsapp.svg" alt="WhatsApp" style="background:#fff;border-radius:50%;padding:4px;">
       </a>
     </div>
-    <h1>9F'J) 'D7AD</h1>
-    <button id="adminBtn" onclick="openAdminModal()">DH-) 'D%/'1)</button>
-    <p>F5'&- HEF*,'* *3'9/ 'D"('! H'D#EG'* AJ 19'J) #7A'DGE</p>
+    <h1>عناية الطفل</h1>
+    <button id="adminBtn" onclick="openAdminModal()">لوحة الإدارة</button>
+    <p>نصائح ومنتجات تساعد الآباء والأمهات في رعاية أطفالهم</p>
   </header>
   <nav>
-    <a href="#tips">F5'&- 'D9F'J)</a>
-    <a href="#products">EF*,'* #7A'D</a>
-    <a href="#about">EF F-F</a>
+    <a href="#tips">نصائح العناية</a>
+    <a href="#products">منتجات أطفال</a>
+    <a href="#about">من نحن</a>
   </nav>
 
   <!-- Admin Modal -->
   <div id="adminModal">
     <div class="modal-content">
-      <h3>*3,JD /.HD 'DE/J1</h3>
-      <input type="password" id="adminPassword" placeholder="#/.D CDE) 'DE1H1">
+      <h3>تسجيل دخول المدير</h3>
+      <input type="password" id="adminPassword" placeholder="أدخل كلمة المرور">
       <div>
-        <button onclick="checkAdminPassword()">/.HD</button>
-        <button onclick="closeAdminModal()">%D:'!</button>
+        <button onclick="checkAdminPassword()">دخول</button>
+        <button onclick="closeAdminModal()">إلغاء</button>
       </div>
       <div id="adminError" style="color: red; margin-top: 10px;"></div>
     </div>
@@ -90,51 +90,51 @@
 
   <!-- Admin Panel -->
   <div id="adminPanel">
-    <h3>DH-) *-CE 'DE/J1</h3>
-    <div>E1-('K (C AJ DH-) 'D%/'1)! JECFC GF' %6'A) EF*,'* ,/J/) H-0A #H .5E 'DEF*,'*.</div>
+    <h3>لوحة تحكم المدير</h3>
+    <div>مرحباً بك في لوحة الإدارة! يمكنك هنا إضافة منتجات جديدة وحذف أو خصم المنتجات.</div>
     <div class="admin-actions">
-      <input id="newProductName" placeholder="'3E 'DEF*," />
-      <input id="newProductPrice" placeholder="'D391 ('D/JF'1 'D91'BJ" type="number" min="0" />
-      <input id="newProductImage" placeholder="1'(7 5H1) 'DEF*, (E+'D: https://...)" />
-      <button onclick="addProduct()">%6'A) 'DEF*,</button>
+      <input id="newProductName" placeholder="اسم المنتج" />
+      <input id="newProductPrice" placeholder="السعر بالدينار العراقي" type="number" min="0" />
+      <input id="newProductImage" placeholder="رابط صورة المنتج (مثال: https://...)" />
+      <button onclick="addProduct()">إضافة المنتج</button>
     </div>
     <div id="adminSuccess" style="color: green; margin-top: 10px;"></div>
     <div style="text-align:left;">
-      <button onclick="closeAdminPanel()" style="background:#e63946;color:#fff;padding:7px 18px;border-radius:5px;border:none;cursor:pointer;margin-top:6px;">.1H, EF DH-) 'D%/'1)</button>
+      <button onclick="closeAdminPanel()" style="background:#e63946;color:#fff;padding:7px 18px;border-radius:5px;border:none;cursor:pointer;margin-top:6px;">خروج من لوحة الإدارة</button>
     </div>
   </div>
 
   <section id="tips">
-    <h2>F5'&- 'D9F'J) ('D#7A'D</h2>
+    <h2>نصائح العناية بالأطفال</h2>
     <ul>
-      <li>'-15 9DI 16'9) 'D7AD (4CD EF*8E HF8JA.</li>
-      <li>*:JJ1 'D-A'6'* AH1 '*3'.G' DD-A'8 9DI 5-) 'D,D/.</li>
-      <li>*/A&) 'D7AD ,J/K' H'D-15 9DI F8'A) ED'(3G.</li>
-      <li>E1'B() /1,) -1'1) 'D7AD ('3*E1'1.</li>
-      <li>2J'1) 'D7(J( (4CD /H1J DE*'(9) FEH 'D7AD.</li>
+      <li>احرص على رضاعة الطفل بشكل منتظم ونظيف.</li>
+      <li>تغيير الحفاضات فور اتساخها للحفاظ على صحة الجلد.</li>
+      <li>تدفئة الطفل جيدًا والحرص على نظافة ملابسه.</li>
+      <li>مراقبة درجة حرارة الطفل باستمرار.</li>
+      <li>زيارة الطبيب بشكل دوري لمتابعة نمو الطفل.</li>
     </ul>
   </section>
   <section id="products">
-    <h2>EF*,'* #7A'D EB*1-)</h2>
+    <h2>منتجات أطفال مقترحة</h2>
     <div class="products" id="productsList">
-      <!-- 'DEF*,'* 3*8G1 GF' -->
+      <!-- المنتجات ستظهر هنا -->
     </div>
   </section>
 
   <section id="about" class="about-section">
-    <h2>EF F-F</h2>
+    <h2>من نحن</h2>
     <p>
-      <strong>E*,1 9F'J) 'D7AD</strong> H,G*C 'D#HDI DEF*,'* HF5'&- 19'J) 'D#7A'D!  
-      F-F E*,1 E*.55 AJ *HAJ1 #A6D 'DEF*,'* 'D#3'3J) DD#7A'D EF -A'6'* H-DJ( %DI E3*D2E'* 'D9F'J) H'DF8'A) E9 A1JB JG*E (,H/) E' FB/EG D6E'F 3D'E) H1'-) 7ADC.
-      F39I D*HAJ1 *,1() *3HB 3GD) H"EF) DCD 'D#EG'* H'D"('! E9 F5'&- 9EDJ) H/9E E3*E1.  
-      G/AF' #F J-5D 7ADC 9DI CD E' J-*',G DJFEH (5-) H39'/).
+      <strong>متجر عناية الطفل</strong> وجهتك الأولى لمنتجات ونصائح رعاية الأطفال!  
+      نحن متجر متخصص في توفير أفضل المنتجات الأساسية للأطفال، من حفاضات وحليب إلى مستلزمات العناية والنظافة، مع فريق يهتم بجودة ما نقدمه لضمان سلامة وراحة طفلك.
+      نسعى لتوفير تجربة تسوق سهلة وآمنة لكل الأمهات والآباء، مع نصائح عملية ودعم مستمر.  
+      هدفنا أن يحصل طفلك على كل ما يحتاجه لينمو بصحة وسعادة.
       <br><br>
-      4C1'K D'.*J'1C E*,1 9F'J) 'D7AD D#F 5-) H3D'E) 7ADC GJ #HDHJ*F' /'&E'K.
+      شكراً لاختيارك متجر عناية الطفل، لأن صحة وسلامة طفلك هي أولويتنا دائماً.
     </p>
   </section>
 
   <footer>
-    &copy; 2025 9F'J) 'D7AD | ,EJ9 'D-BHB E-AH8)
+    &copy; 2025 عناية الطفل | جميع الحقوق محفوظة
   </footer>
 
   <script>
@@ -158,7 +158,7 @@
         closeAdminModal();
         showAdminPanel();
       } else {
-        document.getElementById('adminError').textContent = 'CDE) 'DE1H1 :J1 5-J-)!';
+        document.getElementById('adminError').textContent = 'كلمة المرور غير صحيحة!';
       }
     }
     function showAdminPanel() {
@@ -185,7 +185,7 @@
       const name = document.getElementById('newProductName').value.trim();
       const price = document.getElementById('newProductPrice').value.trim();
       const img = document.getElementById('newProductImage').value.trim();
-      const defaultImg = "https://via.placeholder.com/210x120?text=EF*,+,/J/";
+      const defaultImg = "https://via.placeholder.com/210x120?text=منتج+جديد";
       if (name && price) {
         const productsList = document.getElementById('productsList');
         const div = document.createElement('div');
@@ -193,14 +193,14 @@
         div.innerHTML = `
           <img src="${img || defaultImg}" alt="${name}" onerror="this.src='${defaultImg}'">
           <div class="product-name">${name}</div>
-          <div class="product-price">${parseInt(price).toLocaleString()} /JF'1 91'BJ</div>
+          <div class="product-price">${parseInt(price).toLocaleString()} دينار عراقي</div>
           <div class="product-controls${adminMode ? ' show' : ''}">
-            <button class="btn-delete" onclick="deleteProduct(this)">-0A</button>
-            <button class="btn-discount" onclick="discountProduct(this)">.5E</button>
+            <button class="btn-delete" onclick="deleteProduct(this)">حذف</button>
+            <button class="btn-discount" onclick="discountProduct(this)">خصم</button>
           </div>
         `;
         productsList.appendChild(div);
-        document.getElementById('adminSuccess').textContent = '*E* %6'A) 'DEF*, (F,'-!';
+        document.getElementById('adminSuccess').textContent = 'تمت إضافة المنتج بنجاح!';
         document.getElementById('newProductName').value = '';
         document.getElementById('newProductPrice').value = '';
         document.getElementById('newProductImage').value = '';
@@ -209,7 +209,7 @@
     }
     function deleteProduct(btn) {
       var productDiv = btn.closest('.product');
-      if (confirm('GD #F* E*#C/ EF -0A G0' 'DEF*,')) {
+      if (confirm('هل أنت متأكد من حذف هذا المنتج؟')) {
         productDiv.remove();
       }
     }
@@ -219,8 +219,8 @@
       const discountBox = document.createElement('div');
       discountBox.className = 'discount-box';
       discountBox.innerHTML = `
-        <input type="number" min="1" max="100" value="10" id="discountInput" placeholder="F3() 'D.5E">
-        <button onclick="applyDiscount(this)">*7(JB 'D.5E</button>
+        <input type="number" min="1" max="100" value="10" id="discountInput" placeholder="نسبة الخصم">
+        <button onclick="applyDiscount(this)">تطبيق الخصم</button>
       `;
       btn.parentElement.appendChild(discountBox);
     }
@@ -234,9 +234,9 @@
       let percent = parseInt(percentInput.value);
       if (!isNaN(price) && !isNaN(percent) && percent > 0 && percent <= 100) {
         let discounted = Math.round(price * (1 - percent / 100));
-        priceDiv.textContent = discounted.toLocaleString() + ' /JF'1 91'BJ ((9/ 'D.5E ' + percent + '%)';
+        priceDiv.textContent = discounted.toLocaleString() + ' دينار عراقي (بعد الخصم ' + percent + '%)';
         productDiv.querySelector('.btn-discount').disabled = true;
-        productDiv.querySelector('.btn-discount').textContent = '*E 'D.5E';
+        productDiv.querySelector('.btn-discount').textContent = 'تم الخصم';
         productDiv.querySelector('.btn-discount').style.background = '#aaa';
         discountBox.remove();
       }
